@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكتبتي | My Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar-->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <span>📖</span> مكتبتي
+
+            </a>
+            <nav class="nav-links">
+                <a href="#home">الرئيسية</a>
+                <a href="#about">عنّي</a>
+                <a href="#books">الكتب </a>
+            </nav>
+             <div class="nav-search">
+        <span class="search-icon">🔍</span>
+        <input
+            type="text"
+            id="search-input"
+            placeholder="البحث عن كتاب"
+        >
+    </div>
+        </div>
+    </header>
+
+    
+    <!--hero section-->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <span class="hero-label"> استكشف اقرأ اتعلم</span>
+            <h1 class="hero-title">
+                كتاب لكل شخص<br>
+                كتاب لكل لحظة
+            </h1>
+            <p class="hero-description">
+         كتابك القادم على بعد نقرة واحدة فقط! استكشف مجموعتنا الواسعة من الكتب في جميع الأنواع، من الروايات إلى الكتب غير الخيالية، ومن الكتب التعليمية إلى الكتب الترفيهية. سواء كنت تبحث عن مغامرة جديدة أو ترغب في توسيع معرفتك، لدينا ما يناسبك
+    </p>
+    <div class="hero-buttons">
+        <a href="#books" class="btn btn-primary">استكشف الكتب</a>
+        </div>
+        </div>
+            <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="library.jpg" alt="مكتبة">
+            </div>
+        </div>
+         
+    </div> 
+    </section>
+    <section class="book-section" id="books">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                
+                    <h2 class="section-title">مكتبتك  </h2>
+                    </div>
+                    <p class="section-count">
+                        <span id="books-count">0</span>كتب
+                        </p>
+                        </div>
+                        <div class="books-grid" id="books-grid">
+                            </div>
+            <div class="empty-state" id="empty-state" style="display: none;">
+    <span class="empty-icon">📚</span>
+    <h3>عذراً، الكتاب غير موجود</h3>
+    <p>سيتم إضافة الكتاب قريباً </p>
+       </div>
+                 </div>
+            </div>
+         </section>
+       
+<script src="script.js"></script>
+                            
+</body>
+<!-- about-->
+<section class="about-section" id="about">
+    <div class="container">
+
+        <h2 class="section-title">مكتبتي</h2>
+        <p class="about-subtitle">مساحتك الخاصة لمتابعة رحلتك مع القراءة</p>
+
+        <div class="about-text">
+            <p>
+                وُجِدَ هذا الموقع ليكون رفيقاً للقارئ؛ يُساعده على حفظ كتبه،
+                وتتبّع ما قرأه وما ينوي قراءته، وتوثيق كل ما مرّ به من صفحات.
+                فبدلاً من أن تتناثر الكتب في الذاكرة، تجدها مرتّبةً في مكانٍ واحد،
+                لكلٍّ منها حالُه وتقييمُه.
+            </p>
+        </div>
+
+        <p class="about-quote">
+            إنّ القراءة رحلةٌ لا تنتهي،<br>
+            و<span>مكتبتي</span> ما هي إلا محطةٌ صغيرة على طريقها.
+        </p>
+
+    </div>
+</section>
+<!--footer-->
+<footer class="footer">
+    <div class="container">
+        <p>شكرًا لأختيارك مكتبتي <strong>mm</strong></p>
+    </div>
+</footer>
+
+</html>
